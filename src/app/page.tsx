@@ -75,7 +75,7 @@ export default function Home() {
                 <span>📍</span> 대전광역시 음식점 가이드
               </div>
               <h1 className="text-4xl md:text-5xl font-black tracking-tight leading-tight">
-                대전 맛지도 🍽️
+                대전 맛지도
               </h1>
               <p className="text-orange-100 mt-2 text-base">
                 서구 · 중구 · 유성구 <span className="font-bold text-white">{restaurants.length}개</span> 맛집 한 눈에
