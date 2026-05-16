@@ -7,12 +7,13 @@ import RestaurantModal from '@/components/RestaurantModal'
 import { restaurants } from '@/data/restaurants'
 import { Category, District, Restaurant } from '@/types'
 
-const districtOrder: District[] = ['서구', '중구', '유성구']
+const districtOrder: District[] = ['서구', '중구', '유성구', '동구']
 
 const districtMeta: Record<string, { color: string; bg: string; text: string }> = {
   서구: { color: 'border-blue-400', bg: 'bg-blue-500', text: '둔산·갈마·탄방·관저' },
   중구: { color: 'border-emerald-400', bg: 'bg-emerald-500', text: '은행·대흥·선화·목동' },
   유성구: { color: 'border-violet-400', bg: 'bg-violet-500', text: '봉명·온천·궁동·어은·노은' },
+  동구: { color: 'border-rose-400', bg: 'bg-rose-500', text: '판암·가양·용운·대청·낭월' },
 }
 
 export default function Home() {

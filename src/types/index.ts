@@ -1,4 +1,4 @@
-export type District = '서구' | '중구' | '유성구'
+export type District = '서구' | '중구' | '유성구' | '동구'
 
 export type Category =
   | '전체'
