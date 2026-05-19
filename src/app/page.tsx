@@ -139,7 +139,7 @@ export default function Home() {
       {/* 구별 탭 빠른 이동 (전체 선택 시) */}
       {selectedDistrict === '전체' && !searchQuery && selectedCategory === '전체' && (
         <div className="max-w-7xl mx-auto px-4 pt-6">
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {districtOrder.map((d) => {
               const meta = districtMeta[d]
               return (

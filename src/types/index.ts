@@ -23,6 +23,7 @@ export interface Restaurant {
   hours?: string
   description?: string
   tags?: string[]
+  dong?: string
   lat?: number
   lng?: number
   imageUrl?: string
